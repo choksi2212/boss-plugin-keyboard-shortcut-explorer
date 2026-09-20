@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.shortcuts",
+  "displayName": "Shortcuts",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "minBossVersion": "9.4.2",
+  "mainClass": "ai.rever.boss.plugin.dynamic.shortcuts.ShortcutsDynamicPlugin",
+  "type": "mixed",
+  "description": "Discover every keyboard shortcut available in BOSS - host + plugins, search by action or key, detect conflicts, export a markdown cheatsheet",
+  "author": "Choksi",
+  "url": "https://github.com/choksi2212/boss-plugin-keyboard-shortcut-explorer",
+  "panel": { "position": "left_bottom", "priority": 80 },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  },
+  "isolationMode": "out-of-process",
+  "fallback": "in-process"
+}
