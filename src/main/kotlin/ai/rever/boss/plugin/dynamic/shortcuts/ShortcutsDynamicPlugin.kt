@@ -20,7 +20,7 @@ class ShortcutsDynamicPlugin : DynamicPlugin {
     override val version: String = manifestVersion()
     override val description: String =
         "Discover every keyboard shortcut available in BOSS - host + plugins, search by action or key, detect conflicts, export a markdown cheatsheet"
-    override val author: String = "Choksi"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/choksi2212/boss-plugin-keyboard-shortcut-explorer"
 
     private var mcpProvider: ShortcutsMcpToolProvider? = null
